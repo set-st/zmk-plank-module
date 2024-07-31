@@ -1,10 +1,16 @@
 file_format: "1"
 id: plank
 name: Plank
-type: shield
+type: board
 url: https://https://github.com/set-st/zmk-plank-module/
-requires: [pro_micro]
-exposes: [i2c_oled]
+requires:
+  - pro_micro
+exposes:
+  - i2c_oled
+features:
+  - backlight
+  - keys
+  - pointer
 features:
   - keys
   - display
