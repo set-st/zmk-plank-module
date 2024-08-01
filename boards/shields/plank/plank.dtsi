@@ -31,11 +31,11 @@ RC(4,3) RC(4,4) RC(4,5) RC(4,7) RC(4,9) RC(4,10) RC(4,11)
 
         diode-direction = "col2row";
         row-gpios
-            = <&pro_micro P006 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&pro_micro P008 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&pro_micro P017 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&pro_micro P020 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&pro_micro P022 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            = <&pro_micro "P006" (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro "P008" (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro "P017" (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro "P020" (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro "P022" (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
 
     };
