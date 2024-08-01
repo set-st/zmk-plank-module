@@ -2,12 +2,17 @@
 
 &kscan0 {
     col-gpios
-        = <&pro_micro 024 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 100 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 011 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 104 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 031 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 029 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 002 GPIO_ACTIVE_HIGH>
+        = <&pro_micro P024 GPIO_ACTIVE_HIGH>
+        , <&pro_micro P100 GPIO_ACTIVE_HIGH>
+        , <&pro_micro P011 GPIO_ACTIVE_HIGH>
+        , <&pro_micro P104 GPIO_ACTIVE_HIGH>
+        , <&pro_micro P031 GPIO_ACTIVE_HIGH>
+        , <&pro_micro P029 GPIO_ACTIVE_HIGH>
+        , <&pro_micro P002 GPIO_ACTIVE_HIGH>
+        , <&pro_micro P115 GPIO_ACTIVE_HIGH>
+        , <&pro_micro P113 GPIO_ACTIVE_HIGH>
+        , <&pro_micro P009 GPIO_ACTIVE_HIGH>
+        , <&pro_micro P102 GPIO_ACTIVE_HIGH>
+        , <&pro_micro P101 GPIO_ACTIVE_HIGH>
         ;
 };
