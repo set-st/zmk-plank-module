@@ -15,9 +15,10 @@
 #     shield: corne_left
 #     cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
 #     artifact-name: corne_left_with_logging
+#     nrfmicro_13
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: nrfmicro_13
     shield: plank
     snippet: zmk-usb-logging
