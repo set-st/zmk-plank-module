@@ -10,6 +10,8 @@
     // 49 backlight
 };
 
+#define TAPPING_TERM 200
+
 / {
     conditional_layers {
         compatible = "zmk,conditional-layers";
