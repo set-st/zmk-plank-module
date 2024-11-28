@@ -1,9 +1,13 @@
-#define ZMK_BEHAVIORS_OMIT_KT
+#define ZMK_BEHAVIORS_OMIT_ALL
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
+
+#ifdef CONFIG_ZMK_STUDIO
+#include <zmk/studio.h>
+#endif
 
 &led_strip {
     chain-length = <49>;
