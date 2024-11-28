@@ -97,7 +97,7 @@
 &trans  &bt BT_CLR    &trans        &trans        &trans        &trans                    &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &trans  &trans  &trans
 &trans  &trans        &trans        &trans        &trans        &trans                    &trans           &trans           &trans           &trans  &trans  &trans
 &trans  &trans        &trans        &trans        &trans        &trans                    &trans           &trans           &trans           &trans  &trans  &trans
-                                    &trans        &trans        &trans          &trans    &trans           &trans           &trans
+                                    &trans        &trans        &trans          &trans    &trans           &trans           &studio_unlock
             >;
 
             label = "Settings";
