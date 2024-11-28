@@ -2,7 +2,9 @@ if SHIELD_MY_BOARD
 
 config ZMK_KEYBOARD_NAME
     default "Plank Keyboard"
-
+    select ZMK_KEYBOARD
+    select ZMK_KEYBOARD_MATRIX_TRANSFORM
+    select ZMK_STUDIO
 endif
 
 if ZMK_BACKLIGHT
