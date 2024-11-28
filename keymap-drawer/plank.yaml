@@ -1,5 +1,5 @@
 layers:
-  base:
+  Default:
   - TAB
   - Q
   - W
@@ -40,10 +40,10 @@ layers:
   - LCTRL
   - LALT
   - LGUI
-  - nav
+  - Navigation
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - settings
+  - Settings
   - LEFT
   - UP
   - DOWN
@@ -55,7 +55,7 @@ layers:
   - VOLUME DOWN
   - PLAY PAUSE
   - VOLUME UP
-  nav:
+  Navigation:
   - {t: ▽, type: trans}
   - '1'
   - '2'
@@ -111,7 +111,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  settings:
+  Settings:
   - {t: ▽, type: trans}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -166,8 +166,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  design:
+  - '&studio_unlock'
+  Design:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
