@@ -8,6 +8,7 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       revision: main
+      revision: studio/keymap-subsystem
       import: app/west.yml
   self:
     path: config
