@@ -42,7 +42,7 @@ layers:
   - LALT
   - LGUI
   - Navigation
-  - {t: ▽, type: trans}
+  - {t: NumPad, h: toggle}
   - {t: ▽, type: trans}
   - Settings
   - LEFT
@@ -210,7 +210,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - {t: Default, h: toggle}
   - KP 0
   - {t: DELETE, type: held}
   - KP ENTER
