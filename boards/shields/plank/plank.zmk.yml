@@ -11,6 +11,4 @@ features:
   - backlight
   - keys
   - pointer
-features:
-  - keys
   - display
